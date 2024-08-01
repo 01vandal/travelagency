@@ -1,0 +1,83 @@
+
+/* 
+
+Primary Color (#FF6F61 - Coral): rgb(255, 214, 165)
+        Use this for key elements like the header, buttons, and footer.
+
+Secondary Color (#FFABAB - Light Pink): 
+        Use this for secondary elements like the navigation bar and backgrounds of sections.
+
+Accent Color (#FFD6A5 - Peach): 
+        Use this for highlights, borders, and any accent elements to draw attention. 
+
+*/
+
+/* 
+NOTE: this page is for PREVIOUS JOURNEYS ARTICLE
+*/
+
+.previous {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    
+.previous .previous-img1 { 
+    grid-area: 2 / 2 / 8 / 7;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.previous .previous-img1:hover {
+    z-index: 1;
+    scale: 1.1;
+}
+.previous .previous-img2 { 
+    grid-area: 6 / 5 / 12 / 10;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    transition: 0.3s;
+
+}
+
+.previous .previous-img2:hover{
+    z-index: 1;
+    scale: 1.1;
+}
+
+.previous .previous-img3:hover{
+    scale: 1.1;
+}
+
+.previous .previous-img3 { 
+    grid-area: 10 / 8 / 16 / 13;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+
+}
+
+.previous > img {
+    padding: 3px;
+    border: 2px solid #FFABAB ;
+    border-radius: 20px;
+}
+
+.previous h2 { 
+    grid-area: 2 / 11 / 8 / 13; ; 
+    padding: 0.7rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.8;
+    border-radius: 25px;
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,171,171,0.8324142156862745) 0%, rgba(255,255,255,0) 80%);
+}

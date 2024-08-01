@@ -1,0 +1,110 @@
+
+/* 
+
+Primary Color (#FF6F61 - Coral): rgb(255, 214, 165)
+        Use this for key elements like the header, buttons, and footer.
+
+Secondary Color (#FFABAB - Light Pink): 
+        Use this for secondary elements like the navigation bar and backgrounds of sections.
+
+Accent Color (#FFD6A5 - Peach): 
+        Use this for highlights, borders, and any accent elements to draw attention. 
+
+*/
+
+/* 
+
+NOTE: this page is for TERK VALUES ARTICLE
+NOTE: I added our records article here in this css file
+
+*/
+
+.values {
+    margin: 5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.values h1 {
+    margin-bottom: 6rem;
+}
+
+.values .values-items {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+.values .values-items .values-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid #FFABAB;
+    border-radius: 20px;
+    padding: 2rem;
+    height: 12rem;
+    width: 15rem;
+    transition: all 0.4s ease 0s;
+}
+
+.values .values-items .values-item i {
+    font-size: 2rem;
+}
+
+.values .values-items .values-item:hover {
+    scale: 120%;
+    background-color: #FFABAB;
+}
+
+
+
+/* 
+NOTE: here the TERK RECORDS ARTICLE starts
+*/
+
+.records {
+    margin-top: 2rem;
+    padding: 5rem 2rem 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgb(255, 200, 200) 0%, rgba(255,255,255,0) 100%);
+}
+
+.records h1 {
+    margin-bottom: 6rem;
+}
+
+.records .records-items {
+    display: flex;
+    margin-top: 4rem;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+.records .records-items .records-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* border: 2px solid #FFABAB;
+    border-radius: 20px; */
+    padding: 2rem;
+    height: 12rem;
+    width: 15rem;
+    scale: 2;
+    transition: all 0.4s ease 0s;
+}
+
+.records .records-items .records-item:hover {
+    color: #FF6F61;
+
+}

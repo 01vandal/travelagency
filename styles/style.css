@@ -1,0 +1,148 @@
+/* 
+
+Primary Color (#FF6F61 - Coral): rgb(255, 214, 165)
+        Use this for key elements like the header, buttons, and footer.
+
+Secondary Color (#FFABAB - Light Pink): 
+        Use this for secondary elements like the navigation bar and backgrounds of sections.
+
+Accent Color (#FFD6A5 - Peach): 
+        Use this for highlights, borders, and any accent elements to draw attention. 
+
+*/
+
+/* Default styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: "Montserrat";
+}
+
+.highlights {
+    color: rgb(255, 111, 97);
+}
+
+
+
+
+/* navbars styling */
+
+nav {
+    /* width: 100vw; */
+    /* height: vw; */
+    padding:  20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffcf7;
+    box-shadow: 10px 10px 10px #fff2f2;
+}
+.logo {
+    width: 20%;
+    height: 20%;
+}
+
+.logo img {
+    width: 12rem;
+    height: 3rem;
+    margin-left: 30px;
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li {
+    padding: 10px 30px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: all 0.3s ease 0s;
+    /* background-color: ; */
+}
+
+.navbar ul li a:hover {
+    color: #FF6F61;
+}
+
+.navbar ul li .diff {
+    color: white;
+    background-color: #FF6F61;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar ul li .diff:hover {
+    color: white;
+    background-color: #e85346;
+}
+
+
+/* Header Styling */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 30px; */
+    padding: 5%;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 8%, rgba(255,111,97,0.2889968487394958) 100%);
+}
+
+header h1 {
+    background-color: #FF6F61;
+    border-radius: 0  50px 50px 0;
+    padding: 30px;
+    transition: all 0.3s ease 0s;
+}
+
+header h1:hover {
+    padding-right: 8rem;
+    padding-left: 3rem;
+    word-spacing: 0.2rem;
+}
+
+header .best-offer {
+    height: 15rem;
+    width: 20rem;
+    font-size: 1.4rem;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 214, 165, 0.5)), url(../images/langkawi.jpg) ;
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-position: center center cneter;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+
+}
+
+header .best-offer a {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #FFD6A5;
+    border-radius: 20px;
+    color: black;
+    transition: all 0.3s ease 0s;
+
+}
+
+
+header .best-offer a:hover {
+    background-color: #FFABAB;
+}   

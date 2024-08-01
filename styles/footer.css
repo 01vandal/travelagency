@@ -1,0 +1,95 @@
+
+/* 
+
+Primary Color (#FF6F61 - Coral): rgb(255, 214, 165)
+        Use this for key elements like the header, buttons, and footer.
+
+Secondary Color (#FFABAB - Light Pink): 
+        Use this for secondary elements like the navigation bar and backgrounds of sections.
+
+Accent Color (#FFD6A5 - Peach): 
+        Use this for highlights, borders, and any accent elements to draw attention. 
+
+*/
+
+/* 
+
+NOTE:  this page is for TERK PAGE'S FOOTER
+
+*/
+
+footer {
+
+    background-color: rgb(255, 200, 200);
+}
+
+footer .top-footer {
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+footer .top-footer .footer-logo img {
+    width: 12rem;
+    height: 3rem;
+}
+
+footer .top-footer .footer-links a {
+    padding: 1.8rem;
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    transition: all 0.3 ease 0s;
+}
+
+footer .top-footer .footer-links a:hover {
+    text-decoration: underline grey;
+}
+
+/* footer .top-footer .footer-links a:hover::after {
+    content: "";
+    background-color: orangered;
+    display: block;
+    height: 1px;
+    width: 2rempx;
+} */
+
+footer .top-footer .footer-socials a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: all 0.3 ease 0s;
+}
+
+footer .top-footer .footer-socials .facebook:hover {
+    scale: 1.2;
+    color: blue;
+}
+
+footer .top-footer .footer-socials .instagram:hover {
+    scale: 1.2;
+    color: rgb(241, 14, 169);
+
+}
+
+footer .top-footer .footer-socials .twitter:hover {
+    scale: 1.2;
+    color: rgb(0, 170, 255);
+}
+
+
+footer .bottom-footer {
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 5rem
+}
+
+footer .bottom-footer .settings .setting {
+    padding: 1rem;
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+}

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- NOTE: css importing -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/previous.css">
+    <link rel="stylesheet" href="./styles/nextoffer.css">
+    <link rel="stylesheet" href="./styles/values.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
+    <!-- NOTE: Fonts importing -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- NOTE: box icon importing -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <title>TREK Destination</title>
+
+    <!-- Debug: todo: note I COULD NOT ADD THE FAVICON HERE: NOTE: -->
+    <link rel="icon" type="image/png" href="./images/logo.png">
+ 
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+    <nav>
+        <div class="logo">
+            <a href="./index.html"><img src="./images/logo.png" alt="Logo"></a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#" style="font-size: larger;">Available Journeys</a></li>
+                <!-- NOTE:
+                 I gave these two list items the class diff
+                 to give them different css properties
+                 -->
+                <li><a href="#" class="diff">Login</a></li>
+                <li><a href="#" class="diff">Signup</a></li>
+                
+            </ul>
+            <!-- TODO: Search bar to search for travels -->
+            <div class="search">
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <header>
+        
+        <h1 class="slogan">
+            <!-- Our Travel Agency SLOGAN -->
+            TREK Destination ~ find the best offer!
+        </h1>
+        
+        <div class="best-offer">
+            <!-- In this div the website show its best offer every week -->
+            <div class="details">
+                <p>
+                    Book the fabulous journey to <span class="highlights">LANGKAWI</span> islands in malaysia!
+                </p>
+            </div>
+            <a href="#">Get Consultation</a>
+        </div>
+
+    </header>
+    
+
+
+
+
+
+
+    <!-- 
+        In this article, we present the agency's next journey to book
+    -->
+    <article class="next-offer">
+        <div class="about-next-offer">
+            <h4>
+                <span class="highlights">On August 21, 2024</span>, a meticulously planned journey to Iceland will begin. This extraordinary adventure promises memorable experiences, with every detail carefully considered. Travelers eagerly anticipate exploring Iceland's breathtaking landscapes, including waterfalls, glaciers, and hot springs, and immersing themselves in the island's rich culture and stunning scenery.
+            </h4>
+            <div class="specification">
+                <h4>
+                    It includes
+                </h4>
+                <div class="specification-items">
+
+                    <span class="specification-item">Food</span>
+                    <span class="specification-item">Hotel</span>
+                    <span class="specification-item">Plane</span>
+                    <span class="specification-item">Safety</span>
+                    <span class="specification-item">Bus</span>
+                    <span class="specification-item">Metro</span>
+                    <span class="specification-item">camping tools</span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="view-next-offer">
+            <a href=""><i class='bx bxs-plus-circle plus'></i></a>
+            <a href=""><i class='bx bxs-right-top-arrow-circle arrow'></i></a>
+            <img src="./images/iceland.webp" alt="Icelandpicture">
+            
+        </div>
+        <div class="rest-next-offer">
+            <img src="./images/iceland2.avif" alt="iceland2" class="iceland">
+            <div class="titles">
+                <h4>Unlock the mystry</h4>
+                <h4>Enjoy the risk</h4>
+                <h4>International friends</h4>
+                <h4>Tell stories</h4>
+                <h4>Kill boredom</h4>
+            </div>
+            <div class="book-now">
+                <button>Book now!</button>
+            </div>
+            <div class="medias">
+                <span class="media">
+                    <i class='bx bxs-share'></i>
+                    <p>share</p>
+                </span>
+                <span class="media">
+                    <i class='bx bx-link-alt' ></i>
+                    <p>copy</p>
+                </span>
+            </div>
+        </div>
+    </article>
+
+
+
+
+
+
+
+
+    <!-- In this article TREK Destination Flex its MUSCLES -->
+    <article class="previous">
+        <h2>
+            Our previous journeys were meticulously organized, exceptionally well-planned, and provided unforgettable experiences for all participants.
+        </h2>
+        <!-- NOTE: TODO: overlap picture on each other  -->
+        <!-- DONE -->
+        <!-- NOTE: I overlapped pictures on each other SUCCESSFULLY -->
+        <!-- todo: make wach picture on top of others while hovering -->
+        <img src="./images/previous1.avif" alt="" class="previous-img1">
+        <img src="./images/previous2.avif" alt="" class="previous-img2">
+        <img src="./images/previous3.webp" alt="" class="previous-img3">
+    </article>
+
+
+
+
+
+
+
+    <!-- In this article TREK show the best values it offers -->
+    <article class="values">
+        <h1>
+            Top values TERK Agency offers
+        </h1>
+
+        <div class="values-items">
+            <div class="values-item">
+                <i class='bx bx-donate-heart'></i>
+                <h3>Safety</h3>
+                <p>
+                    Our guards and guides will ensure you being throughout the journey
+                </p>
+            </div>
+            <div class="values-item">
+                <i class='bx bx-happy' ></i>
+                <h3>Enjoynment</h3>
+                <p>
+                    Our responsibles have chosen the best places to visit and enjoy, do not miss the chance
+                </p>
+            </div>
+            <div class="values-item">
+                <i class='bx bx-shuffle' ></i>
+                <h3>Flexibility</h3>
+                <p>
+                    Our management team will help in case you wanted to change the journey or withdraw your money
+                </p>
+            </div>
+        </div>
+    </article>
+
+
+
+
+
+
+
+    <article class="records">
+        <h1>
+            TERK Agency's best records
+        </h1>
+        <div class="records-items">
+            <div class="records-item">
+                <h3>
+                    1,270+
+                </h3>
+                <h5>
+                    journeys
+                </h5>
+            </div>
+            <div class="records-item">
+                <h3>
+                    740+
+                </h3>
+                <h5>
+                    Visited <br>
+                    places
+                </h5>
+            </div>
+            <div class="records-item">
+                <h3>
+                    10,000+
+                </h3>
+                <h5>
+                    participants
+                </h5>
+            </div>
+            
+        </div>
+    </article>
+
+
+
+
+
+
+    <footer>
+        <div class="top-footer">
+            <div class="footer-logo">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="footer-links">
+                <a href="#" class="footer-link">
+                    Hire
+                </a>
+                <a href="#" class="footer-link">
+                    Travel
+                </a>
+                <a href="#" class="footer-link">
+                    Book
+                </a>
+                <a href="#" class="footer-link">
+                    History
+                </a>
+                <a href="#" class="footer-link">
+                    About
+                </a>
+                <a href="#" class="footer-link">
+                    Support
+                </a>
+                <a href="#" class="footer-link">
+                    Forum
+                </a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.facebook.com" class="facebook">
+                    <i class='bx bxl-facebook-circle' ></i>
+                </a>
+                <a href="https://www.instagram.com" class="instagram">
+                    <i class='bx bxl-instagram-alt' ></i>
+                </a>
+                <a href="https://www.x.com" class="twitter">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+
+            </div>
+        </div>
+
+
+        <div class="bottom-footer">
+            <h5>
+                &copy; 2024   <span class="highlights">TERK Destination Travel Agency</span>
+            </h5>
+            <div class="settings">
+                <a href="#" class="setting">Terms</a>
+                <a href="#" class="setting">Privacy</a>
+                <a href="#" class="setting">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

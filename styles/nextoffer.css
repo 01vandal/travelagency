@@ -1,0 +1,161 @@
+
+/* 
+
+Primary Color (#FF6F61 - Coral): rgb(255, 214, 165)
+        Use this for key elements like the header, buttons, and footer.
+
+Secondary Color (#FFABAB - Light Pink): 
+        Use this for secondary elements like the navigation bar and backgrounds of sections.
+
+Accent Color (#FFD6A5 - Peach): 
+        Use this for highlights, borders, and any accent elements to draw attention. 
+
+*/
+
+/* 
+NOTE: this page is for NEXT JOURNEY OFFER ARTICLE
+*/
+
+
+.next-offer {
+    /* width: 98vw; */
+    height: auto;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 25% 55% 20%;
+}
+
+.next-offer .about-next-offer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.next-offer .about-next-offer .specification h4 {
+    margin-bottom: 1.6rem;
+}
+
+.next-offer .about-next-offer .specification .specification-items{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.next-offer .about-next-offer .specification .specification-items .specification-item {
+    margin: 0.1rem 0.2rem;
+    border: 2px solid #FFD6A5;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease 0s;
+}
+.next-offer .about-next-offer .specification .specification-items .specification-item:hover {
+    background-color: #FFD6A5;
+    color: black;
+}
+
+.next-offer .view-next-offer{
+    position: relative;
+
+}
+
+.next-offer .view-next-offer .plus {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 3rem;
+    color:white;
+}
+.next-offer .view-next-offer .arrow {
+    position: absolute;
+    top: 1rem;
+    left: 5rem;
+    font-size: 3rem;
+    color: white;
+
+}
+
+
+
+.next-offer .view-next-offer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.next-offer .rest-next-offer img {
+    height: 30%;
+    width: 80%;
+    padding: auto;
+    margin-bottom: 2rem;
+    object-fit: cover;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    transition: all 0.3s ease 0s;
+    border-radius: 20px;
+}
+
+/*  
+ DEBUG:  todo: note: Here I wanted to expand the rest image to fill both 2nd and 3rd column of the grid 
+ but still could not do it 
+*/
+.next-offer .rest-next-offer img:hover {
+    grid-area: 0  1  1  2;
+}
+
+.next-offer .rest-next-offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10px 2rem 10px;
+}
+
+.next-offer .rest-next-offer .titles {
+    line-height: 2rem;
+    text-align: center;
+    color: black;
+}
+
+.next-offer .rest-next-offer .book-now {
+    padding: 2rem;
+    
+    
+}
+
+.next-offer .rest-next-offer .book-now button{
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.9rem;
+    border-radius: 25px;
+    background-color: black;
+    color: white;   
+    transition: all 0.3s ease 0s;
+}
+
+.next-offer .rest-next-offer .book-now button:hover {
+    color: black;
+    background-color: #FF6F61;
+}
+
+.next-offer .rest-next-offer .medias {
+    display: flex;
+    padding: 2rem;
+}
+
+.next-offer .rest-next-offer .medias .media {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 25px;
+    transition: all 0.4s ease 0s;
+}
+
+.next-offer .rest-next-offer .medias .media:hover {
+    color: white;
+    background-color: #FF6F61;
+
+}
